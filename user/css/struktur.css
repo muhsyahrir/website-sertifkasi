@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: #fff;
+  padding: 20px;
+  font-family: Arial;
+}
+ */
+/* Center website */
+/* .main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+} */
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  /* width: 33.33%; */
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+/* .content {
+  background-color: white;
+  padding: 10px;
+} */
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+  text-align: center;
+}
+
+/* Style the buttons */
+.button {
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 16px/1.6 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+/* Add a grey background color on mouse-over */
+.button:hover {
+  background-color: #ddd;
+  border: none;
+  outline: none;
+}
+
+/* Add a dark background color to the active button */
+.button.active {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}

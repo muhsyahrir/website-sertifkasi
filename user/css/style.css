@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    text-decoration: none;
+    color:inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1024px;
+    margin-inline: auto;
+}
+
+footer {
+    background-color: #343A40;
+    color: white;
+    padding: 1.1rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: auto;
+
+}
